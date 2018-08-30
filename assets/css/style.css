@@ -1,9 +1,12 @@
-
+/**
+    Styling for body: background image, margin
+*/
 
 body {
     font-size: 24px;
     margin: 0 auto;
     background-image: url("../images/gravel.png");
+    max-height: 100%
 }
 
 /**
@@ -26,15 +29,14 @@ body {
 }
 
 /**
-    Styling for Main Content Card
+    Styling for Main Content
 */
 .main_content {
     background: white;
-    margin: auto;
     margin-top: 30px;
     width:100%;
     padding: 10px;
-    /* height: 400px; */
+    height: 75%;
 }
 
 .scroll-overflow {
@@ -54,29 +56,26 @@ body {
     Styling for Portfolio Images in Grid
 */
 .image_wrapper {
-    width:250px;
-    height: 200px;
-    margin:auto;
+    /* width:640px;
+    height: 360px; */
+    margin: auto;
+    overflow: hidden;
   }
 
 
-.img_thumbnail {
-    width:180;
-    height:180;
-}
-
  .project_label {
     position: relative;
-    margin: 0;
-    width:250px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width:100%;
     background: #4aaaa5;
     color: white;
     font-size: 14px;
     text-align: center;
     padding: 10px;
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    top: -55px;
-  }
+    top: -145px;
+  } 
 
 /**
     Styling for Contact Form
