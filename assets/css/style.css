@@ -2,11 +2,14 @@
     Styling for body: background image, margin
 */
 
+* {font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;}
+
 body {
     font-size: 24px;
     margin: 0 auto;
     background-image: url("../images/gravel.png");
-    max-height: 100%
+    max-height: 100%;
+    
 }
 
 /**
@@ -14,6 +17,7 @@ body {
 */
 .navbar {
     border-bottom: 1px solid gray;
+    padding: 0px;
 }
 
 .main_title_label {
@@ -25,7 +29,21 @@ body {
 }
 
 .navbar-brand {
-    margin-left:55px;
+    margin-left:5%;
+}
+
+.nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18;
+}
+
+.text_content {
+    font-family: Arial,'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 /**
