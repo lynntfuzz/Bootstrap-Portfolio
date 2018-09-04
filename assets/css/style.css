@@ -78,13 +78,15 @@ body {
     height: 100%; 
     margin: auto;
     overflow: hidden;
-  }
+}
 
+#about_me_image {
+    float: left;
+    max-width: 180px;
+}
 
  .project_label {
     position: relative;
-    /* margin-left: 2px;
-    margin-right: 2px; */
     width:100%;
     background: #4aaaa5;
     color: white;
